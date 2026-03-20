@@ -35,17 +35,17 @@ export default function SectionDivider({
       <style>{`
         .section-divider-wrap {
           width: 100%;
-          max-width: 72rem;
+          max-width: 64rem;
           margin-left: auto;
           margin-right: auto;
-          padding-left: 1rem;
-          padding-right: 1rem;
+          padding-left: 0.75rem;
+          padding-right: 0.75rem;
         }
 
         @media (min-width: 640px) {
           .section-divider-wrap {
-            padding-left: 1.5rem;
-            padding-right: 1.5rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
           }
         }
 
@@ -54,11 +54,12 @@ export default function SectionDivider({
           overflow: hidden;
           display: flex;
           align-items: center;
-          gap: 1rem;
+          justify-content: center;
+          gap: 0.65rem;
           border: 1px solid color-mix(in oklab, var(--border) 100%, transparent);
-          background: color-mix(in oklab, var(--card) 82%, transparent);
+          background: color-mix(in oklab, var(--card) 84%, transparent);
           border-radius: 9999px;
-          padding: 1rem 1.25rem;
+          padding: 0.7rem 0.95rem;
           box-shadow: inset 0 1px 0 var(--inset-glint);
           backdrop-filter: blur(10px);
           -webkit-backdrop-filter: blur(10px);
@@ -124,11 +125,11 @@ export default function SectionDivider({
           position: relative;
           z-index: 1;
           flex: 0 0 auto;
-          width: 0.5rem;
-          height: 0.5rem;
+          width: 0.4rem;
+          height: 0.4rem;
           border-radius: 9999px;
           background: var(--primary);
-          box-shadow: 0 0 18px color-mix(in oklab, var(--primary) 55%, transparent);
+          box-shadow: 0 0 14px color-mix(in oklab, var(--primary) 50%, transparent);
           animation: divider-pulse 2.6s ease-in-out infinite;
         }
 
@@ -152,9 +153,9 @@ export default function SectionDivider({
         }
 
         .section-divider-copy {
-          margin-top: 0.85rem;
+          margin-top: 0.6rem;
           text-align: center;
-          padding: 0 0.5rem;
+          padding: 0 0.35rem;
         }
 
         .section-divider-title {
@@ -167,10 +168,10 @@ export default function SectionDivider({
         }
 
         .section-divider-subtitle {
-          margin: 0.35rem 0 0;
+          margin: 0.25rem 0 0;
           color: var(--muted-foreground);
-          font-size: 0.9rem;
-          line-height: 1.5;
+          font-size: 0.85rem;
+          line-height: 1.4;
         }
 
         @keyframes divider-pulse {

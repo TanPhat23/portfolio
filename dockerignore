@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+bun.lock
+
+# Build outputs (will be built inside Docker)
+dist/
+.output/
+.nitro/
+.cache/
+
+# Git
+.git/
+.gitignore
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Testing
+coverage/
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Readme
+README.md
