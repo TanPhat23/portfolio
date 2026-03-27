@@ -53,7 +53,7 @@ export default function Hero() {
               <p className="max-w-2xl text-lg leading-relaxed text-muted-foreground sm:text-xl">
                 I'm{" "}
                 <span className="font-semibold text-foreground underline decoration-primary/30 decoration-2 underline-offset-4">
-                  Phan Tan Phat
+                  Phan Tan Phat  MSSV: 2280602318  Group: 5
                 </span>
                 , a Fullstack Engineer specializing in high-performance backend
                 systems and immersive 3D web interfaces.
